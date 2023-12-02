@@ -4,11 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewObservableComponent } from './components/new-observable/new-observable.component';
+import { CancellingObservableComponent } from './components/cancelling-observable/cancelling-observable.component';
 import { CreateObservableComponent } from './components/create-observable/create-observable.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    NewObservableComponent,
+    CancellingObservableComponent,
     CreateObservableComponent
   ],
   imports: [
