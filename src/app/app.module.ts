@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NewObservableComponent } from './components/new-observable/new-observable.component';
 import { CancellingObservableComponent } from './components/cancelling-observable/cancelling-observable.component';
 import { CreateObservableComponent } from './components/create-observable/create-observable.component';
+import { OperatorsBasicsComponent } from './components/operators-basics/operators-basics.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewObservableComponent,
     CancellingObservableComponent,
-    CreateObservableComponent
+    CreateObservableComponent,
+    OperatorsBasicsComponent
   ],
   imports: [
     BrowserModule,
