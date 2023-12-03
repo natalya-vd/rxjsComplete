@@ -13,6 +13,7 @@ import { BufferCountOperatorComponent } from './pages/buffer-count-operator/buff
 import { BufferTimeOperatorComponent } from './pages/buffer-time-operator/buffer-time-operator.component';
 import { BufferToggleOperatorComponent } from './pages/buffer-toggle-operator/buffer-toggle-operator.component';
 import { BufferWhenOperatorComponent } from './pages/buffer-when-operator/buffer-when-operator.component';
+import { TakeOperatorComponent } from './pages/take-operator/take-operator.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BufferWhenOperatorComponent } from './pages/buffer-when-operator/buffer
     BufferCountOperatorComponent,
     BufferTimeOperatorComponent,
     BufferToggleOperatorComponent,
-    BufferWhenOperatorComponent
+    BufferWhenOperatorComponent,
+    TakeOperatorComponent
   ],
   imports: [
     BrowserModule,
