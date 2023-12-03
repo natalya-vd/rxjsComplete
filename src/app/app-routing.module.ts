@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { OperatorsComponent } from './pages/operators/operators.component';
 import { BufferOperatorComponent } from './pages/buffer-operator/buffer-operator.component';
 import { BufferCountOperatorComponent } from './pages/buffer-count-operator/buffer-count-operator.component';
+import { BufferTimeOperatorComponent } from './pages/buffer-time-operator/buffer-time-operator.component';
 
 const routes: Routes = [
   {
@@ -11,7 +12,8 @@ const routes: Routes = [
     component: OperatorsComponent,
     children: [
       {path: 'buffer', component: BufferOperatorComponent},
-      {path: 'buffer-count', component: BufferCountOperatorComponent}
+      {path: 'buffer-count', component: BufferCountOperatorComponent},
+      {path: 'buffer-time', component: BufferTimeOperatorComponent},
     ]
   }
 ];
