@@ -7,6 +7,8 @@ import { NewObservableComponent } from './components/new-observable/new-observab
 import { CancellingObservableComponent } from './components/cancelling-observable/cancelling-observable.component';
 import { CreateObservableComponent } from './components/create-observable/create-observable.component';
 import { OperatorsBasicsComponent } from './components/operators-basics/operators-basics.component';
+import { OperatorsComponent } from './pages/operators/operators.component';
+import { BufferOperatorComponent } from './pages/buffer-operator/buffer-operator.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { OperatorsBasicsComponent } from './components/operators-basics/operator
     NewObservableComponent,
     CancellingObservableComponent,
     CreateObservableComponent,
-    OperatorsBasicsComponent
+    OperatorsBasicsComponent,
+    OperatorsComponent,
+    BufferOperatorComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,18 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { OperatorsComponent } from './pages/operators/operators.component';
+import { BufferOperatorComponent } from './pages/buffer-operator/buffer-operator.component';
+
+const routes: Routes = [
+  {
+    path: 'operators',
+    component: OperatorsComponent,
+    children: [
+      {path: 'buffer', component: BufferOperatorComponent}
+    ]
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
