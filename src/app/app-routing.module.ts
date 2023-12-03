@@ -14,6 +14,7 @@ import { TakeWhileOperatorComponent } from './pages/take-while-operator/take-whi
 import { SkipOperatorComponent } from './pages/skip-operator/skip-operator.component';
 import { SkipLastOperatorComponent } from './pages/skip-last-operator/skip-last-operator.component';
 import { SkipUntilOperatorComponent } from './pages/skip-until-operator/skip-until-operator.component';
+import { SkipWhileOperatorComponent } from './pages/skip-while-operator/skip-while-operator.component';
 
 const routes: Routes = [
   {
@@ -32,6 +33,7 @@ const routes: Routes = [
       {path: 'skip', component: SkipOperatorComponent},
       {path: 'skip-last', component: SkipLastOperatorComponent},
       {path: 'skip-until', component: SkipUntilOperatorComponent},
+      {path: 'skip-while', component: SkipWhileOperatorComponent},
     ]
   }
 ];
